@@ -81,7 +81,7 @@ def publish():
     item_name = input("Enter item name: ").strip().lower()
     description = input("Enter description: ").strip().lower()
     location = input("Enter location: ").strip().lower()
-    found_time = input("Enter estimated found time: ")
+    found_time = input("Enter an estimated time: ")
     contact = input("Enter your contact details: ")
     post_time = formatted_time
     new_post = Post(item_type, item_name, description, location,found_time, contact, post_time)
